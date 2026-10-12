@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store - Peluche Ralsei</title>
+    <!-- Normalize -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo FrontEnd Store">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <div class="producto-detalle">
+            <!-- Imagen Principal -->
+            <div class="producto-detalle__imagen-contenedor">
+                <img class="producto-detalle__imagen" src="img/postershades.png" alt="Peluche de Ralsei">
+            </div>
+
+            <!-- Información del Producto -->
+            <div class="producto-detalle__contenido">
+                <p class="producto-detalle__subtitulo">HADES</p>
+                <h1 class="producto-detalle__titulo">CONJUNTO DE POSTERS</h1>
+                <p class="producto-detalle__autor">Por Fangamer</p>
+                
+                <p class="producto-detalle__precio">$60.00</p>
+
+                <form class="formulario">
+                    <input class="formulario__submit" type="submit" value="AÑADIR AL CARRITO">
+                </form>
+
+                <!-- Características -->
+                <div class="producto-detalle__seccion">
+                    <h3 class="producto-detalle__encabezado">CARACTERÍSTICAS:</h3>
+                    <ul class="producto-detalle__lista">
+                        <li>Poster del tartaro</li>
+                        <li>poster Asphodelus</li>
+                        <li>poster eliseo</li>
+                    </ul>
+                </div>
+
+                <!-- Descripción -->
+                <div class="producto-detalle__seccion">
+                    <h3 class="producto-detalle__encabezado">DESCRIPCIÓN:</h3>
+                    <p class="producto-detalle__texto">
+                        Bask in the dark beauty of the Underworld of Hades in this stunning set of three original prints
+                    </p>
+                    <p class="producto-detalle__texto">
+                         painted by the game's environment artist Joanne Tran and art director Jen Zee, and chronicling the Prince of the Underworld's battles from the depths of hell to the surface
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">
+            FrontEnd Store 
+        </p>
+    </footer>
+
+</body>
+</html>

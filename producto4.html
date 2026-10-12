@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store - Peluche Hornet</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo FrontEnd Store">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <div class="producto-detalle">
+            <div class="producto-detalle__imagen-contenedor">
+                <img class="producto-detalle__imagen" src="img/hornet.png" alt="Peluche Hornet">
+            </div>
+
+            <div class="producto-detalle__contenido">
+                <p class="producto-detalle__subtitulo">HOLLOW KNIGHT</p>
+                <h1 class="producto-detalle__titulo">Hornet Plush</h1>
+                <p class="producto-detalle__autor">Por Team Cherry / Fangamer</p>
+                
+                <p class="producto-detalle__precio">$100.00</p>
+
+                <form class="formulario">
+                    <input class="formulario__submit" type="submit" value="AÑADIR AL CARRITO">
+                </form>
+
+                <div class="producto-detalle__seccion">
+                    <h3 class="producto-detalle__encabezado">CARACTERÍSTICAS:</h3>
+                    <ul class="producto-detalle__lista">
+                        <li>Incluye aguja de tela desmontable.</li>
+                        <li>Capa roja confeccionada en suave algodón.</li>
+                        <li>Peluche de Team Cherry.</li>
+                    </ul>
+                </div>
+
+                <div class="producto-detalle__seccion">
+                    <h3 class="producto-detalle__encabezado">DESCRIPCIÓN:</h3>
+                    <p class="producto-detalle__texto">
+                        "¡SHAW!"
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">FrontEnd Store </p>
+    </footer>
+</body>
+</html>
